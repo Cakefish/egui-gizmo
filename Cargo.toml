@@ -12,11 +12,8 @@ repository = "https://github.com/urholaukkarinen/egui-gizmo"
 categories = ["gui", "game-development", "game-engines"]
 keywords = ["egui", "3d", "gizmo"]
 
-[workspace]
-members = ["demo"]
-
 [dependencies]
-egui = "0.19"
+egui = "0.18"
 glam = "0.21"
 
 [profile.release]
